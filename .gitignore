@@ -17,6 +17,7 @@ step6_output/
 round13_tmp_jimeng/
 tmp_preview/
 browser_profiles/
+byhuman/
 
 # Local temp and probes
 tmp_*.png
@@ -51,6 +52,9 @@ step6_probe_*.json
 !plugins/
 !.agents/
 !AGENTS.md
+!README.md
+!scripts/
 !sync_jp_menswear_plugin.ps1
+!install_or_update_team_plugin.ps1
 !插件安装说明.md
 !业务同事调用模板.md
