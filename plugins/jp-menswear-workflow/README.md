@@ -45,3 +45,11 @@ For teammates who should not manage this repository manually, use the repo-root 
 `powershell -ExecutionPolicy Bypass -File ".\install_or_update_team_plugin.ps1"`
 
 That helper downloads the latest repository snapshot and installs the plugin for the current Windows user.
+
+## Step 6 direct-link behavior
+
+If a teammate explicitly asks to do Step 6 and provides a product link:
+- run Step 6 directly
+- do not backfill Steps 1 to 5 unless they explicitly ask for the full workflow
+- treat historical outputs only as optional reference material
+- still produce a direct-to-publish material pack with slot mapping, source trace, upload order, copy, and web preview

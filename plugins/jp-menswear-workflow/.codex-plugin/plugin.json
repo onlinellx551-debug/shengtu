@@ -27,8 +27,8 @@
     ],
     "defaultPrompt": [
       "Run the full Japanese menswear six-step workflow",
-      "Continue the current Japanese menswear project",
-      "Build the Step 6 material pack from a product link"
+      "Continue the current Japanese menswear project from the correct step",
+      "Step 6 only: build a direct-to-publish material pack from a product link and skip Steps 1-5 unless I explicitly ask for them"
     ],
     "brandColor": "#1F4E79"
   }
