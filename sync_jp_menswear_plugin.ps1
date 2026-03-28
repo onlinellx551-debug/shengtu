@@ -1,8 +1,14 @@
-$repoPlugin = "C:\Users\Administrator\Desktop\Codex Project\task-codex\plugins\jp-menswear-workflow"
-$homePluginRoot = "C:\Users\Administrator\plugins"
+$repoRoot = $PSScriptRoot
+$repoPlugin = Join-Path $repoRoot "plugins\jp-menswear-workflow"
+$userHome = [Environment]::GetFolderPath("UserProfile")
+$homePluginRoot = Join-Path $userHome "plugins"
 $homePlugin = Join-Path $homePluginRoot "jp-menswear-workflow"
-$homeMarketplaceDir = "C:\Users\Administrator\.agents\plugins"
+$homeMarketplaceDir = Join-Path $userHome ".agents\plugins"
 $homeMarketplace = Join-Path $homeMarketplaceDir "marketplace.json"
+
+if (-not (Test-Path $repoPlugin)) {
+  throw "Repository plugin source not found: $repoPlugin"
+}
 
 New-Item -ItemType Directory -Force -Path $homePluginRoot | Out-Null
 New-Item -ItemType Directory -Force -Path $homeMarketplaceDir | Out-Null
@@ -36,5 +42,6 @@ Copy-Item -Recurse -Force $repoPlugin $homePlugin
 }
 '@ | Set-Content -Encoding utf8 -LiteralPath $homeMarketplace
 
+Write-Output "Repository root: $repoRoot"
 Write-Output "Synced plugin to: $homePlugin"
 Write-Output "Updated marketplace: $homeMarketplace"
