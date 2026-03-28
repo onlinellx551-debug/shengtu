@@ -37,3 +37,11 @@ The `skills/` folder includes:
 3. Restart Codex.
 4. Check the plugin list for:
    `JP Menswear 6-Step Workflow`
+
+## Team distribution
+
+For teammates who should not manage this repository manually, use the repo-root helper:
+
+`powershell -ExecutionPolicy Bypass -File ".\install_or_update_team_plugin.ps1"`
+
+That helper downloads the latest repository snapshot and installs the plugin for the current Windows user.
