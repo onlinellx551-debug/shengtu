@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 4 找商"
+  short_description: "1688/淘宝/AlphaShop 供应商搜索与复选"
+  default_prompt: "Use $jp-menswear-step-4-sourcing to complete Step 4 for Japanese menswear sourcing."
+

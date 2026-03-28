@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 3 SKU 选品"
+  short_description: "把趋势与验证结论落成 SKU 清单"
+  default_prompt: "Use $jp-menswear-step-3-sku-selection to complete Step 3 for Japanese menswear SKU selection."
+

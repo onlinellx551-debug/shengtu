@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 1 趋势分析"
+  short_description: "Google Trends 趋势分析与 4 月窗口判断"
+  default_prompt: "Use $jp-menswear-step-1-trends to complete Step 1 for Japanese menswear trend analysis."
+

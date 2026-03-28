@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated outputs
+april_sell_output/
+trend_output/
+market_map_output/
+step1_output/
+step2_output/
+step2_plus_output/
+step3_output/
+step4_output/
+step5_output/
+step6_output/
+round13_tmp_jimeng/
+tmp_preview/
+browser_profiles/
+
+# Local temp and probes
+tmp_*.png
+tmp_*.txt
+lovart_*.png
+manual_upload_*.png
+chrome_*.png
+taobao_*.png
+tb_*.png
+tmall_*.png
+*_window.png
+*_printwindow.png
+*_reviews.png
+*_comments.png
+*_right.png
+*_crop*.png
+*_screen*.png
+*_top.png
+*_front*.png
+*_price*.png
+*_clean*.png
+
+# Scratch text/json
+*_dom.txt
+example_dom.txt
+edge_dom.txt
+chrome_dom.txt
+recommend_resp_*.txt
+step6_probe_*.json
+
+# Keep plugin source and project bridge files tracked
+!plugins/
+!.agents/
+!AGENTS.md
+!sync_jp_menswear_plugin.ps1
+!插件安装说明.md
+!业务同事调用模板.md

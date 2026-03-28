@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装总控"
+  short_description: "统一调度 6 步流程并处理停点、续跑与交接"
+  default_prompt: "Use $jp-menswear-orchestrator to orchestrate the six-step Japanese menswear workflow."
+

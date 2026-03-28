@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 2 多来源验证"
+  short_description: "整合 Amazon、日本社区、YouTube 与评论证据"
+  default_prompt: "Use $jp-menswear-step-2-validation to complete Step 2 for Japanese menswear source validation."
+

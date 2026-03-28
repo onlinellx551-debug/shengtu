@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 6 素材包"
+  short_description: "真同款素材包、网页预览与上架交付"
+  default_prompt: "Use $jp-menswear-step-6-material-pack to complete Step 6 for Japanese menswear material pack delivery."
+

@@ -1,0 +1,5 @@
+﻿interface:
+  display_name: "日本男装 Step 5 同款确认"
+  short_description: "严格区分真同款与相似款"
+  default_prompt: "Use $jp-menswear-step-5-same-style-confirm to complete Step 5 for Japanese menswear same-style confirmation."
+
