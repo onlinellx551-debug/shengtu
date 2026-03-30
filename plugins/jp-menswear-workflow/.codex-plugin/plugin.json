@@ -1,35 +1,35 @@
-{
-  "name": "jp-menswear-workflow",
-  "version": "0.1.1",
-  "description": "Japanese menswear six-step workflow with orchestrator and reusable skills.",
-  "author": {
-    "name": "Local Team",
-    "email": "",
-    "url": ""
-  },
-  "license": "Proprietary",
-  "keywords": [
-    "japan-menswear",
-    "sourcing",
-    "materials",
-    "workflow"
-  ],
-  "skills": "./skills/",
-  "interface": {
-    "displayName": "JP Menswear 6-Step Workflow",
-    "shortDescription": "One entry point for trends, validation, SKU selection, sourcing, same-style confirmation, and material packs.",
-    "longDescription": "A reusable plugin entry for the Japanese menswear workflow. Includes six connected skills for trend analysis, multi-source validation, SKU selection, supplier sourcing, same-style confirmation, and final material-pack delivery.",
-    "developerName": "Local Team",
-    "category": "Productivity",
-    "capabilities": [
-      "Interactive",
-      "Write"
-    ],
-    "defaultPrompt": [
-      "Run the full Japanese menswear six-step workflow",
-      "Continue the current Japanese menswear project from the correct step",
-      "Step 6 only: build a direct-to-publish material pack from a product link and skip Steps 1-5 unless I explicitly ask for them"
-    ],
-    "brandColor": "#1F4E79"
-  }
+﻿{
+    "name":  "jp-menswear-workflow",
+    "version":  "0.1.2",
+    "description":  "Japanese menswear six-step workflow with orchestrator and reusable skills.",
+    "author":  {
+                   "name":  "Local Team",
+                   "email":  "",
+                   "url":  ""
+               },
+    "license":  "Proprietary",
+    "keywords":  [
+                     "japan-menswear",
+                     "sourcing",
+                     "materials",
+                     "workflow"
+                 ],
+    "skills":  "./skills/",
+    "interface":  {
+                      "displayName":  "JP Menswear 6-Step Workflow v0.1.2",
+                      "shortDescription":  "v0.1.2 - Trends, validation, SKU selection, sourcing, same-style confirmation, and direct-to-publish material packs.",
+                      "longDescription":  "Version 0.1.2 of the Japanese menswear workflow plugin. Includes six connected skills for trend analysis, multi-source validation, SKU selection, supplier sourcing, same-style confirmation, and final material-pack delivery, with Step 6 direct-link mode and stricter output structure.",
+                      "developerName":  "Local Team",
+                      "category":  "Productivity",
+                      "capabilities":  [
+                                           "Interactive",
+                                           "Write"
+                                       ],
+                      "defaultPrompt":  [
+                                            "Run the full Japanese menswear six-step workflow",
+                                            "Continue the current Japanese menswear project from the correct step",
+                                            "Step 6 only: build a direct-to-publish material pack from a product link and skip Steps 1-5 unless I explicitly ask for them"
+                                        ],
+                      "brandColor":  "#1F4E79"
+                  }
 }

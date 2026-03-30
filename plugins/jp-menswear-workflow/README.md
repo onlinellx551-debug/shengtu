@@ -46,10 +46,14 @@ Check either of these files in the installed plugin copy:
 - `.codex-plugin/build-info.json`
 
 The current expected plugin version is:
-- `0.1.1`
+- `0.1.2`
 
 The current build commit is:
-- `e4d6659`
+- `bc5cc2b`
+
+The plugin list UI should now show the version directly in:
+- `displayName`
+- `shortDescription`
 
 ## Team distribution
 
