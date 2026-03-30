@@ -1,6 +1,6 @@
 {
   "name": "jp-menswear-workflow",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "description": "Japanese menswear six-step workflow with orchestrator, direct-link Step 6 mode, and reusable skills.",
   "author": {
     "name": "Local Team",
@@ -20,9 +20,9 @@
   ],
   "skills": "./skills/",
   "interface": {
-    "displayName": "JP Menswear 6-Step Workflow v0.1.4",
-    "shortDescription": "v0.1.4 - 第六步直链模式更稳定，先交付素材包入口，再补充说明。",
-    "longDescription": "Version 0.1.4 of the Japanese menswear workflow plugin. Includes six connected skills for trend analysis, multi-source validation, SKU selection, supplier sourcing, same-style confirmation, and final material-pack delivery. When a user explicitly asks for Step 6 only and provides a product link, the plugin should skip Steps 1-5 by default, avoid long process-log style output, and produce a direct-to-publish material pack with slot mapping, source trace, upload order, copy, and web preview.",
+    "displayName": "JP Menswear 6-Step Workflow v0.1.6",
+    "shortDescription": "v0.1.6 - 第六步直链模式默认优先提质关键槽位，不再直接拼供应商原图。",
+    "longDescription": "Version 0.1.6 of the Japanese menswear workflow plugin. Includes six connected skills for trend analysis, multi-source validation, SKU selection, supplier sourcing, same-style confirmation, and final material-pack delivery. When a user explicitly asks for Step 6 only and provides a product link, the plugin should skip Steps 1-5 by default, avoid long process-log style output, separate raw supplier extraction from final publish-ready assets, and prioritize premium reconstruction of key slots instead of directly composing supplier raw-detail images into the final publish-ready page.",
     "developerName": "Local Team",
     "category": "Productivity",
     "capabilities": [

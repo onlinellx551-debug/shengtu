@@ -1,13 +1,13 @@
 {
   "pluginName": "jp-menswear-workflow",
-  "displayName": "JP Menswear 6-Step Workflow v0.1.4",
-  "version": "0.1.4",
-  "gitCommit": "f2faeca",
+  "displayName": "JP Menswear 6-Step Workflow v0.1.6",
+  "version": "0.1.6",
+  "gitCommit": "pending-next-commit",
   "builtAt": "2026-03-30 11:05:00 +08:00",
   "notes": [
     "Step 6 direct-link mode skips Steps 1-5 by default when explicitly requested.",
-    "Step 6 output now requires slot mapping, source trace, upload order, and direct-to-publish package structure.",
-    "Business-facing Step 6 responses now prioritize deliverable entry points before process detail.",
-    "Bundled orchestrator and Step 6 docs were cleaned and tightened for more stable team use."
+    "Direct-link mode now explicitly separates raw supplier extraction from final publish-ready assets.",
+    "Key slots should now default toward premium reconstruction instead of direct supplier-image composition.",
+    "Business-facing Step 6 responses now prioritize deliverable entry points before process detail."
   ]
 }

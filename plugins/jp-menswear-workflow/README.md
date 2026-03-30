@@ -46,7 +46,7 @@ If a teammate explicitly asks for Step 6 only and provides a product link, the p
    `powershell -ExecutionPolicy Bypass -File ".\sync_jp_menswear_plugin.ps1"`
 3. Restart Codex.
 4. Check the plugin list for:
-   `JP Menswear 6-Step Workflow v0.1.4`
+   `JP Menswear 6-Step Workflow v0.1.6`
 
 ## Team installation
 
@@ -63,7 +63,7 @@ Check either file in the installed plugin copy:
 - `.codex-plugin/build-info.json`
 
 Current expected version:
-- `0.1.4`
+- `0.1.6`
 
 The Codex plugin UI should also display the version directly in:
 - `displayName`
