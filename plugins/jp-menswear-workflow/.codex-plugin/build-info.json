@@ -2,8 +2,8 @@
   "pluginName": "jp-menswear-workflow",
   "displayName": "JP Menswear 6-Step Workflow v0.1.6",
   "version": "0.1.6",
-  "gitCommit": "pending-next-commit",
-  "builtAt": "2026-03-30 11:05:00 +08:00",
+  "gitCommit": "4499827",
+  "builtAt": "2026-03-30 11:16:00 +08:00",
   "notes": [
     "Step 6 direct-link mode skips Steps 1-5 by default when explicitly requested.",
     "Direct-link mode now explicitly separates raw supplier extraction from final publish-ready assets.",
