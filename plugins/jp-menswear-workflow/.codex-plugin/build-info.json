@@ -1,12 +1,13 @@
 {
   "pluginName": "jp-menswear-workflow",
-  "displayName": "JP Menswear 6-Step Workflow v0.1.2",
-  "version": "0.1.2",
-  "gitCommit": "bc5cc2b",
-  "builtAt": "2026-03-30 10:31:39 +08:00",
+  "displayName": "JP Menswear 6-Step Workflow v0.1.4",
+  "version": "0.1.4",
+  "gitCommit": "pending-next-commit",
+  "builtAt": "2026-03-30 11:05:00 +08:00",
   "notes": [
     "Step 6 direct-link mode skips Steps 1-5 by default when explicitly requested.",
     "Step 6 output now requires slot mapping, source trace, upload order, and direct-to-publish package structure.",
-    "UI now exposes the plugin version directly in the plugin title and description."
+    "Business-facing Step 6 responses now prioritize deliverable entry points before process detail.",
+    "Bundled orchestrator and Step 6 docs were cleaned and tightened for more stable team use."
   ]
 }

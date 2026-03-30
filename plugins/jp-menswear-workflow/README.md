@@ -1,18 +1,14 @@
 # JP Menswear Workflow Plugin
 
-This plugin is the repository-side source for the Japanese menswear workflow.
+This plugin is the repository-side source of truth for the Japanese menswear workflow.
 
 It combines:
-- a Git-managed plugin entry
+- one business-facing plugin entry
 - six reusable workflow skills
 - one orchestrator skill that coordinates the six steps
 
-## Structure
+## Included skills
 
-- `.codex-plugin/plugin.json`
-- `skills/`
-
-The `skills/` folder includes:
 - `jp-menswear-orchestrator`
 - `jp-menswear-step-1-trends`
 - `jp-menswear-step-2-validation`
@@ -21,52 +17,54 @@ The `skills/` folder includes:
 - `jp-menswear-step-5-same-style-confirm`
 - `jp-menswear-step-6-material-pack`
 
-## How we use it
+## What this plugin is for
 
-- This folder is the Git source of truth.
-- The sync script copies the plugin into the current user's:
-  `plugins\jp-menswear-workflow`
-- The local marketplace entry points Codex to the synced plugin through the current user's:
-  `.agents\plugins\marketplace.json`
+This plugin is designed for a Japanese menswear workflow where teammates may need to:
+- run the full six-step process from trend analysis to material-pack delivery
+- continue from the correct step in an existing project
+- jump directly into Step 6 and build a publish-ready material pack from a product link
+
+## Current business entry behavior
+
+### Full workflow mode
+
+Use the orchestrator when the teammate wants the full workflow or wants the system to decide where to resume.
+
+### Step 6 direct-link mode
+
+If a teammate explicitly asks for Step 6 only and provides a product link, the plugin should:
+- go directly into Step 6
+- skip Steps 1-5 by default
+- reuse older outputs only as optional reference
+- produce a direct-to-publish material pack instead of a generic narrative summary
+- surface deliverable entry points first instead of long shell-style process logs
 
 ## Update flow
 
-1. Update files in this repository plugin folder.
-2. From the repo root, run:
+1. Update files under this repository plugin folder.
+2. From the repository root, run:
    `powershell -ExecutionPolicy Bypass -File ".\sync_jp_menswear_plugin.ps1"`
 3. Restart Codex.
 4. Check the plugin list for:
-   `JP Menswear 6-Step Workflow`
+   `JP Menswear 6-Step Workflow v0.1.4`
 
-## How to verify the installed version
+## Team installation
 
-Check either of these files in the installed plugin copy:
-
-- `.codex-plugin/plugin.json`
-- `.codex-plugin/build-info.json`
-
-The current expected plugin version is:
-- `0.1.2`
-
-The current build commit is:
-- `bc5cc2b`
-
-The plugin list UI should now show the version directly in:
-- `displayName`
-- `shortDescription`
-
-## Team distribution
-
-For teammates who should not manage this repository manually, use the repo-root helper:
+For teammates who should not manage this repository manually, use:
 
 `powershell -ExecutionPolicy Bypass -File ".\install_or_update_team_plugin.ps1"`
 
 That helper downloads the latest repository snapshot and installs the plugin for the current Windows user.
 
-## Step 6 direct-link behavior
+## How to verify the installed version
 
-If a teammate explicitly asks to do Step 6 and provides a product link:
-- run Step 6 directly
-- do not backfill Steps 1 to 5 unless they explicitly ask for the full workflow
-- treat historical outputs only as optional reference material
-- still produce a direct-to-publish material pack with slot mapping, source trace, upload order, copy, and web preview
+Check either file in the installed plugin copy:
+- `.codex-plugin/plugin.json`
+- `.codex-plugin/build-info.json`
+
+Current expected version:
+- `0.1.4`
+
+The Codex plugin UI should also display the version directly in:
+- `displayName`
+- `shortDescription`
