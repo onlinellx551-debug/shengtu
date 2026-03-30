@@ -1,6 +1,6 @@
 {
   "name": "jp-menswear-workflow",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Japanese menswear six-step workflow with orchestrator and reusable skills.",
   "author": {
     "name": "Local Team",

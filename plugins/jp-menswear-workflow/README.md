@@ -38,6 +38,19 @@ The `skills/` folder includes:
 4. Check the plugin list for:
    `JP Menswear 6-Step Workflow`
 
+## How to verify the installed version
+
+Check either of these files in the installed plugin copy:
+
+- `.codex-plugin/plugin.json`
+- `.codex-plugin/build-info.json`
+
+The current expected plugin version is:
+- `0.1.1`
+
+The current build commit is:
+- `e4d6659`
+
 ## Team distribution
 
 For teammates who should not manage this repository manually, use the repo-root helper:

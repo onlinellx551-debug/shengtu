@@ -1,0 +1,11 @@
+{
+  "pluginName": "jp-menswear-workflow",
+  "displayName": "JP Menswear 6-Step Workflow",
+  "version": "0.1.1",
+  "gitCommit": "e4d6659",
+  "builtAt": "2026-03-30 10:01:44 +08:00",
+  "notes": [
+    "Step 6 direct-link mode skips Steps 1-5 by default when explicitly requested.",
+    "Step 6 output now requires slot mapping, source trace, upload order, and direct-to-publish package structure."
+  ]
+}
